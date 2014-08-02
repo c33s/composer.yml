@@ -10,7 +10,7 @@ For easier usage of the `composer.yml` this repo provides a precompiled version 
 ### Download
 You can download the precompiled [YAML][link_yaml] to [JSON][link_json] converter [`composer-yaml.phar`][link_download] below.
 
-[** download**][link_download]
+[**download**][link_download]
 
 ## Documentation
 
