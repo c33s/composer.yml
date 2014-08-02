@@ -1,0 +1,8 @@
+{
+    "directories": ["vendor"],
+    "main": "vendor/igorw/composer-yaml/bin/composer-yaml",
+    "output": "dist/composer-yaml.phar",
+    "algorithm": "SHA512",
+    "compression": "BZ2",
+    "stub": true
+}

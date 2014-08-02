@@ -1,0 +1,6 @@
+box.json
+vendor
+composer.phar
+box.phar
+/bin
+/composer.json.bak

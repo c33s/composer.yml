@@ -1,0 +1,13 @@
+{
+    "name": "c33s/composer.yml",
+    "description": "Provides a precompiled Phar Version of igorw's composer-yaml, a tool for converting Yaml to JSON and vice versa and also some info on how to use composer.yml in a project",
+    "license": "MIT",
+    "require": {
+        "igorw/composer-yaml": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin"
+    }
+}
