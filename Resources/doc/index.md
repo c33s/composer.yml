@@ -3,6 +3,14 @@
 * [YAML to JSON converter](#yaml-to-json-converter)
   * [Information](#information)
   * [Download](#download)
+* [Usage](#usage)
+  * If composer.yml does not exists (and composer.json does)
+  * If composer.yml exists (and composer.json does not)
+* Build the composer-yaml.phar file yourself
+  * Clone This project
+  * Get box.phar
+  * Run the build process
+
 
 ## Why using a different format
 _Why should you use composer.yml instead composer.json?_
@@ -17,8 +25,41 @@ For easier usage of the `composer.yml` this repo provides a precompiled version 
 ### Download
 You can download the precompiled [YAML][link_yaml] to [JSON][link_json] converter [`composer-yaml.phar`][link_download] below.
 
-[** download**][link_download]
+[**download**][link_download]
 
+## Usage
+### If composer.yml does not exists (and composer.json does)
+```
+# create a composer.json file as you are used to it
+touch composer.yml
+php composer-yaml.phar convert composer.json composer.yml
+# edit the composer.yml, you also can use comments.
+php composer-yaml.phar convert composer.yml composer.json
+```
+
+### If composer.yml exists (and composer.json does not)
+```
+(touch composer.json)
+# edit the composer.yml, you also can use comments.
+php composer-yaml.phar convert composer.yml composer.json
+```
+
+
+
+## Build the composer-yaml.phar file yourself
+### Clone This project
+```
+	git clone https://github.com/c33s/composer.yml.git
+```
+### Get box.phar
+```
+    curl -LSs http://box-project.org/installer.php | php  
+```
+### Run the build process
+In the directory where you cloned this project run box.phar (box.json.dist is located in this directory) 
+```
+	php box.phar build
+```
 
 [link_igorw]:         https://github.com/igorw
 [link_composer-yaml]: https://github.com/igorw/composer-yaml
