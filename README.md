@@ -31,7 +31,7 @@ bundle:
 
 [link_igorw]:         https://github.com/igorw
 [link_composer-yaml]: https://github.com/igorw/composer-yaml
-[link_download]:      https://raw.githubusercontent.com/c33s/composer-yaml.phar/master/dist/composer-yaml.phar
+[link_download]:      dist/composer-yaml.phar?raw=true
 [link_json]:          https://en.wikipedia.org/wiki/JSON
 [link_yaml]:          https://en.wikipedia.org/wiki/YAML
 [link_composer_json]: https://getcomposer.org/doc/04-schema.md
