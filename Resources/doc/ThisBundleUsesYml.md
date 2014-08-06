@@ -1,6 +1,6 @@
 # composer.yml
 
-_**Attention - The Bundle/Component linking her uses the `composer.yml` format**_
+_**Attention - The Bundle/Component linked here uses the `composer.yml` format**_
 
 Because json is not a really handy format to read and it also lacks in commenting support, the Bundle/Component linking her uses the `composer.yml` format. 
 
